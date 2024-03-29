@@ -11,9 +11,14 @@
 }
 
 .button{
-  @apply px-4 py-2
+  @apply px-4 py-2 hover:bg-pink-500
 }
 
 .button-pink{
-  @apply bg-red-500 px-4 py-2 hover:bg-pink-500 text-white 
+  @apply bg-red-500 px-4 py-2  text-white 
+}
+
+
+.heading{
+  @apply text-3xl bg-gradient-to-r from-green-500 to-blue-500 text-transparent bg-clip-text font-bold
 }
